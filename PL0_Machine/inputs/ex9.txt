@@ -1,0 +1,15 @@
+VAR y;
+procedure param(x);
+	begin
+		x := x + 2;
+		!x;
+		return x
+	end;
+
+begin
+	y := 3;
+	y := call param(y);
+	!y
+end.
+
+// 5, 5

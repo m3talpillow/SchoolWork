@@ -1,0 +1,17 @@
+var ans;
+procedure loop;
+  var i;
+  begin
+    i := 0;
+    while i < 10 do
+    begin
+      i := i + 1;
+      if i = 5 then return 5
+    end;
+    return i
+  end;
+
+begin
+  ans := call loop;
+  write ans
+end.

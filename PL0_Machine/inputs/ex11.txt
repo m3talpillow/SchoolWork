@@ -1,0 +1,14 @@
+VAR a, b, c;
+BEGIN
+	
+	a := 1;
+	b := 0; 
+	c := 3;
+	WHILE b < 100 DO
+	BEGIN
+		if ODD c then c := c + 1 else c := c - 1;
+		write c;
+		write b;
+		b := b + 1;
+	END
+END.

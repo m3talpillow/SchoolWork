@@ -1,0 +1,17 @@
+VAR me, yourmom, secondChick, result;
+procedure sex(x, y, z);
+	var ans;
+	begin
+		ans := x + y + z;
+		return ans
+	end;
+
+begin
+	me := 5;
+	yourmom := 1;
+	secondChick := 4;
+	result := call sex(me, yourmom, secondChick);
+	!result
+end.
+
+// 10

@@ -1,0 +1,16 @@
+var x, y, ans;
+procedure mult;
+  var a;
+  begin
+    a := x * y;
+    return a
+  end;
+
+begin
+  x := 3;
+  y := 5;
+  ans := call mult;
+  write ans
+end.
+
+// 15

@@ -1,0 +1,32 @@
+var w;
+procedure a;
+  var u;
+  procedure b;
+    var v;
+    procedure c;
+      var z;
+      begin
+        z := 1;
+        if z = 1 then return 1;
+        !z;
+        return 2
+      end;
+    begin
+      v := call c;
+      if v = 1 then return 1;
+      !v;
+      return 3
+    end;
+  begin
+    u := call b;
+    if u = 1 then return 1;
+    !u;
+    return 4
+  end;
+
+begin
+  w := call a;
+  !w
+end.
+
+// 1

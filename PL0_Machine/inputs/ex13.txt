@@ -1,0 +1,14 @@
+var x;
+procedure recur;
+  begin
+    x := x - 1;
+    !x;
+    if x <> 0 then call recur
+  end;
+
+begin
+  x := 5;
+  call recur
+end.
+
+// 4, 3, 2, 1, 0

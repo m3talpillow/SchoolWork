@@ -1,0 +1,12 @@
+VAR x,y;
+BEGIN
+	x := 1;
+	while x < 10 do
+	begin
+		y := x * x;
+		x := x + 1;
+		write y
+	end
+END.
+
+// 1, 4, 9, 16, .., 81

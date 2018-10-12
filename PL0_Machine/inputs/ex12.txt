@@ -1,0 +1,8 @@
+VAR a, b, c;
+BEGIN
+	a := 1;
+	b := 2;
+	c := 3;
+	if a > b then write a;
+	if b < c then write b;
+END.
