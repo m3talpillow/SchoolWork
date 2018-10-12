@@ -13,3 +13,5 @@ Working on this project I learned that proper class and method planning is vital
 efficiently building a project with a team. This is so different code segments can be tackled separately,   
 methods are predefined so data retrieval is understood while building, and to ensure minimal time is spent   
 integrating two components.
+
+Also dislpayed on my [portfolio site](https://jaredjohansson.wordpress.com/portfolio/monopoly-re-skin/)
