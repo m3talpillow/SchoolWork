@@ -1,17 +1,10 @@
 Coded by Jared Johansson and Tyler Cudnohufsky
 Fall 2017 - COP3403
 
-TLDR:
 Compile: gcc Console.c compiler.h scanner.h parser.h pmachine.h
 Inputs: Place files to be read into inputs folder.
 Run: a.exe <inputFile> <tags>...<tags>
-Output: Goes into output folder. Main output holds all wanted tags. "(inputFile)-OUTPUT.txt"
-
-
-*NOTE: Functions with parameters and return statements work.
-
-Compile all files by:
-gcc Console.c compiler.h scanner.h parser.h pmachine.h
+Output: Goes into an output folder. Main output holds all wanted tags. "(inputFile)-OUTPUT.txt"
 
 Input:
 -In order for files to be read they must be in the inputs folder. Otherwise they will not be able to be located.
