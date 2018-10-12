@@ -1,6 +1,8 @@
 I worked within a six person team using Unity to make a web-based version of Monopoly.  
 The theme was altered to give more of a computer command prompt look, but the game mechanics remained unchanged.
 
+![Image](https://github.com/m3talpillow/SchoolWork/blob/master/Monopoly/monopoly.png)
+
 I worked on:  
 Player class and state changing  
 Game manager, which controlled the game flow and held large scope variables  
