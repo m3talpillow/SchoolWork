@@ -3,7 +3,7 @@ Fall 2017 - COP3403
 
 Compile: gcc Console.c compiler.h scanner.h parser.h pmachine.h  
 Inputs: Place files to be read into inputs folder.  
-Run: a.exe inputFile tags... 
+Run: a.exe inputFile tags...  
 Output: Goes into an output folder. Main output holds all wanted tags. "(inputFile)-OUTPUT.txt"  
 
 Input:  
