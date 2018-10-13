@@ -1,6 +1,8 @@
 Coded by Jared Johansson and Tyler Cudnohufsky  
 Fall 2017 - COP3403  
   
+![Image](https://github.com/m3talpillow/SchoolWork/blob/master/PL0_Machine/PL0_ex1_console.PNG)  
+  
 **Description:**  
 Simulates a PL0 Compiler for use with the PMachine (virtual machine, located [here](https://github.com/m3talpillow/SchoolWork/tree/master/PMachine)).  
   
