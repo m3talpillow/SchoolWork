@@ -31,3 +31,5 @@ Simulates a PL0 Compiler for use with the PMachine (virtual machine, located [he
 -A list of all possible tags will be given if the incorrect syntax is given, such as not specifying a file.   
 
 
+**Note:**  
+An example of the outputs have been kept to display what the output files look like.
