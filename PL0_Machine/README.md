@@ -10,8 +10,8 @@ Simulates a PL0 Compiler for use with the PMachine (virtual machine, located [he
 *Run:* a.exe inputFile tags...  
 *Output:* Goes into an output folder in the same directory and/or creates several files.  
 &nbsp;&nbsp;&nbsp; Output file will appear as: "(inputFile)-OUTPUT.txt".  
-&nbsp;&nbsp;&nbsp; Saved tags will appear as: "(inputFile)-TEMP-(tag).txt".
-*Tags:* determines what is placed into the output file, more information below 
+&nbsp;&nbsp;&nbsp; Saved tags will appear as: "(inputFile)-TEMP-(tag).txt".  
+*Tags:* determines what is placed into the output file, more information below.  
 &nbsp;&nbsp;&nbsp; -d prints all tags into their own files.   
 &nbsp;&nbsp;&nbsp; -v prints the status of the pmachine; input code, base pointer, stack pointer, registers, and stack.  
 &nbsp;&nbsp;&nbsp; -l prints the input file as token values.  
