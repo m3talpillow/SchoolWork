@@ -27,7 +27,7 @@ Simulates a PL0 Compiler for use with the PMachine (virtual machine, located [he
 **Output/ tags:**  
 -Placing a tag after input file will make the information appear in the master output file.   
 -If any step is wanted to be saved in a separate file, -d will make all steps wanted print to separate files as well.  
--Running the file without a tag will delete old files. Only last run tags will persist or be created.
+-Running the file without a tag will delete old files. Only last run tags will persist or be created.  
 -A list of all possible tags will be given if the incorrect syntax is given, such as not specifying a file.   
 
 
