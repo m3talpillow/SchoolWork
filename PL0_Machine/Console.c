@@ -64,7 +64,7 @@ void readCommandLine(int argc, char *argv[])
       strcpy(DIR_CURRENT, buffer);
 
       // Save directory/outputs
-      strcat(buffer, "/outputs/");
+      strcat(buffer, "\\outputs\\");
       for ( ; buffer[i] != '\0'; i++)
         ;
       if ((DIR_OUTPUTS = malloc(sizeof(char) * i)) == NULL)
@@ -73,7 +73,7 @@ void readCommandLine(int argc, char *argv[])
 
       // Save directory/inputs
       buffer[j] = '\0';
-      strcat(buffer, "/inputs/");
+      strcat(buffer, "\\inputs\\");
       strcat(buffer, argv[1]);
       for (i = j; buffer[i] != '\0'; i++)
         ;

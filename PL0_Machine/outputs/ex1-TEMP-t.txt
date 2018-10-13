@@ -1,0 +1,10 @@
+varsym identsym x commasym identsym y semicolonsym
+beginsym
+	identsym x becomessym numbersym 1 semicolonsym
+	whilesym identsym x lessym numbersym 10 dosym
+	beginsym
+		identsym y becomessym identsym x multsym identsym x semicolonsym
+		identsym x becomessym identsym x plussym numbersym 1 semicolonsym
+		writesym identsym y 
+	endsym 
+endsym periodsym 
