@@ -9,7 +9,7 @@ Compile: gcc Console.c compiler.h scanner.h parser.h pmachine.h
 Inputs: Place files to be read into an inputs folder in the same directory.  
 Run: a.exe inputFile tags...  
 Output: Goes into an output folder in the same directory and/or creates several files.  
-    Tags determine what goes into the file output, which will appear as: "(inputFile)-OUTPUT.txt".  
+&nbsp;&nbsp;&nbsp;Tags determine what goes into the file output, which will appear as: "(inputFile)-OUTPUT.txt".  
     Files with the same input name will be overriden or deleted if the tags are differnt on the next run.
 Tags: determines what is placed into the output file, used by typing "-tag" where tag is the letter of your choice
     - d prints all tags into their own files.   
