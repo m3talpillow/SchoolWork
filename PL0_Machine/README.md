@@ -2,7 +2,7 @@ Coded by Jared Johansson and Tyler Cudnohufsky
 Fall 2017 - COP3403  
   
 **Description:**
-Simulates a PL0 Compiler for use with the PMachine virtual machine, located [here](https://github.com/m3talpillow/SchoolWork/tree/master/PMachine).  
+Simulates a PL0 Compiler for use with the PMachine (virtual machine, located [here](https://github.com/m3talpillow/SchoolWork/tree/master/PMachine)).  
   
 **How to:**  
 Compile: gcc Console.c compiler.h scanner.h parser.h pmachine.h  
@@ -11,14 +11,14 @@ Run: a.exe inputFile tags...
 Output: Goes into an output folder in the same directory and/or creates several files.  
     Tags determine what goes into the file output, which will appear as: "(inputFile)-OUTPUT.txt".  
     Files with the same input name will be overriden or deleted if the tags are differnt on the next run.
-Tags: determines what is placed into the output file
-    -d prints all tags into their own files.   
-    -v prints the status of the pmachine; input code, base pointer, stack pointer, registers, and stack.  
-    -l prints the input file as token values.  
-    -t prints the input file as lexeme terms (easy to read token values).  
-    -a prints the generated assembly code outputed by the parser.  
-    -f prints the input file at the top of the main output file.  
-    -s outputs system messges to console. 
+Tags: determines what is placed into the output file, used by typing "-tag" where tag is the letter of your choice
+    - d prints all tags into their own files.   
+    - v prints the status of the pmachine; input code, base pointer, stack pointer, registers, and stack.  
+    - l prints the input file as token values.  
+    - t prints the input file as lexeme terms (easy to read token values).  
+    - a prints the generated assembly code outputed by the parser.  
+    - f prints the input file at the top of the main output file.  
+    - s outputs system messges to console. 
   
 **Input:**  
 -In order for files to be read they must be in the inputs folder. Otherwise they will not be able to be located.  
